@@ -86,3 +86,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.our-team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.our-team-section-list-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our-team-section-list-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
