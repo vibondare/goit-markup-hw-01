@@ -31,15 +31,20 @@ body {
   color: #404bbf;
 }
 
-.address-list-item-link {
-    font-weight: 400;
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.address {
+  font-style: normal;
 }
 
-.address-list-item-link:hover, .address-list-item-link:focus {
-    color: #404bbf;
+.address-list-item-link {
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+  color: #404bbf;
 }
 
 .hero-section {
@@ -47,6 +52,37 @@ body {
   color: #ffffff;
 }
 
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
 .hero-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.advantages-section-list-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-sction-list-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
